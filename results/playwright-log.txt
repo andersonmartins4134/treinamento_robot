@@ -1,0 +1,46 @@
+{"level":30,"time":"2025-11-11T18:32:06.666Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"Listening on 127.0.0.1:61510"}
+{"level":30,"time":"2025-11-11T18:32:06.916Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-11-11T18:32:10.775Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"Adding browser to stack: chromium, version: 141.0.7390.37"}
+{"level":30,"time":"2025-11-11T18:32:10.776Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-11-11T18:32:10.776Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-11-11T18:32:10.787Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-11-11T18:32:10.787Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@829e11364dc197594b069b425e6ce073\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=2000faca-6416-47a0-b782-4182ee5f1037\"}"}
+{"level":30,"time":"2025-11-11T18:32:10.811Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"Setting default timeout for context context=8c0e96f9-9629-42f3-b940-2c20b627663e to 10000"}
+{"level":30,"time":"2025-11-11T18:32:10.811Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"Changed active context: context=8c0e96f9-9629-42f3-b940-2c20b627663e"}
+{"level":30,"time":"2025-11-11T18:32:13.217Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"Video path: undefined"}
+{"level":30,"time":"2025-11-11T18:32:13.218Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"Changed active page"}
+{"level":30,"time":"2025-11-11T18:32:19.378Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"End of node method newPage"}
+{"level":30,"time":"2025-11-11T18:32:19.419Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-11-11T18:32:19.421Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"Strict mode is enabled, find Locator with //h1 in page."}
+{"level":30,"time":"2025-11-11T18:32:24.441Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+[2m  - waiting for locator('//h1') to be visible[22m
+
+    at waitForElementState (C:\Users\abezerram\AppData\Local\Programs\Python\Python314\Lib\site-packages\Browser\wrapper\index.js:11721:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\abezerram\AppData\Local\Programs\Python\Python314\Lib\site-packages\Browser\wrapper\index.js:13635:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2025-11-11T18:32:25.271Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-11-11T18:32:25.273Z","pid":5776,"hostname":"21LAPBRM505JNXL","Take screenshot with options: ":{"path":"C:\\Users\\abezerram\\Documents\\treinamento_robot\\results\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-11-11T18:32:25.514Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-11-11T18:32:25.825Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-11T18:32:25.835Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-11T18:32:25.842Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-11T18:32:25.847Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-11T18:32:25.860Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-11T18:32:25.871Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-11T18:32:25.895Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-11T18:32:25.907Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-11T18:32:25.922Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"Changed active context: context=8c0e96f9-9629-42f3-b940-2c20b627663e"}
+{"level":30,"time":"2025-11-11T18:32:25.922Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"Changing current active page: page=a8e5ce67-9069-44d8-80ff-42edc91773f3"}
+{"level":30,"time":"2025-11-11T18:32:25.922Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"Changed active page"}
+{"level":30,"time":"2025-11-11T18:32:25.943Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-11-11T18:32:26.154Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"Removed page=44f1cee9-d71e-4268-bf42-e969c43d6b3f from context=8c0e96f9-9629-42f3-b940-2c20b627663e page stack"}
+{"level":30,"time":"2025-11-11T18:32:26.246Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-11-11T18:32:26.277Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-11T18:32:26.277Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-11T18:32:26.777Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-11-11T18:32:34.293Z","pid":5776,"hostname":"21LAPBRM505JNXL","msg":"End of node method closeAllBrowsers"}

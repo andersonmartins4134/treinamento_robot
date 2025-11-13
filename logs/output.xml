@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.14.0 on win32)" generated="2025-11-11T14:13:24.843213" rpa="false" schemaversion="5">
+<suite id="s1" name="Testes Basicos" source="C:\Users\abezerram\Documents\treinamento_robot\testes_basicos.robot">
+<test id="s1-t1" name="Meu primeiro teste" line="7">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-11-11T14:13:26.033573" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\abezerram\\Documents\\treinamento_robot\\logs\\browser\\traces\\temp\\9a0c76a5-8b4a-4730-96a5-deb6d1102d8a"}</msg>
+<msg time="2025-11-11T14:13:26.295816" level="INFO">Starting Browser process C:\Users\abezerram\AppData\Local\Programs\Python\Python314\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:52903</msg>
+<msg time="2025-11-11T14:13:32.124265" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\abezerram\\Documents\\treinamento_robot\\logs\\browser\\traces\\temp\\9a0c76a5-8b4a-4730-96a5-deb6d1102d8a"}</msg>
+<arg>headless=Falso</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-11-11T14:13:26.032889" elapsed="6.094731"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-11-11T14:13:36.208825" level="INFO">Successfully initialized new page object and opened url: https://the-internet.herokuapp.com/</msg>
+<msg time="2025-11-11T14:13:36.208928" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>url=https://the-internet.herokuapp.com/</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-11-11T14:13:32.131938" elapsed="4.077227"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-11-11T14:13:46.210502" level="INFO">Slept 10 seconds.</msg>
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-11-11T14:13:36.209544" elapsed="10.001102"/>
+</kw>
+<kw name="Take Screenshot" owner="Browser">
+<msg time="2025-11-11T14:13:46.312959" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="PASS" start="2025-11-11T14:13:46.211125" elapsed="0.102223"/>
+</kw>
+<kw name="Close Browser" owner="Browser">
+<msg time="2025-11-11T14:13:49.457025" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-11-11T14:13:46.313764" elapsed="3.143537"/>
+</kw>
+<doc>Esse é o meu primeiro teste Robot Framework</doc>
+<status status="PASS" start="2025-11-11T14:13:26.031746" elapsed="23.426186"/>
+</test>
+<status status="PASS" start="2025-11-11T14:13:24.877402" elapsed="24.595765"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Testes Basicos" id="s1" pass="1" fail="0" skip="0">Testes Basicos</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

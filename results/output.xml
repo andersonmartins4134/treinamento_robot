@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.14.0 on win32)" generated="2025-11-11T15:31:57.621030" rpa="false" schemaversion="5">
+<suite id="s1" name="Treinamento Robot" source="C:\Users\abezerram\Documents\treinamento_robot">
+<suite id="s1-s1" name="Testes Basicos" source="C:\Users\abezerram\Documents\treinamento_robot\testes_basicos.robot">
+<test id="s1-s1-t1" name="login com Dados Corretos" line="7">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-11-11T15:31:59.870943" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\abezerram\\Documents\\treinamento_robot\\results\\browser\\traces\\temp\\5f707a3b-81f9-4772-a50f-4a0a450ada14"}</msg>
+<msg time="2025-11-11T15:32:00.421070" level="INFO">Starting Browser process C:\Users\abezerram\AppData\Local\Programs\Python\Python314\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:61510</msg>
+<msg time="2025-11-11T15:32:10.779894" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\abezerram\\Documents\\treinamento_robot\\results\\browser\\traces\\temp\\5f707a3b-81f9-4772-a50f-4a0a450ada14"}</msg>
+<arg>headless=Falso</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-11-11T15:31:59.868605" elapsed="10.912291"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-11-11T15:32:19.393107" level="INFO">Successfully initialized new page object and opened url: https://the-internet.herokuapp.com/</msg>
+<msg time="2025-11-11T15:32:19.395581" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>url=https://the-internet.herokuapp.com/</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-11-11T15:32:10.781871" elapsed="8.618163"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-11-11T15:32:25.526276" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/fail-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/fail-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2025-11-11T15:32:25.528450" level="INFO">See also file:///C:/Users/abezerram/Documents/treinamento_robot/results/playwright-log.txt for additional details.</msg>
+<msg time="2025-11-11T15:32:25.531622" level="FAIL">TimeoutError: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator('//h1') to be visible
+</msg>
+<arg>//h1</arg>
+<arg>visible</arg>
+<arg>timeout=5 s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="FAIL" start="2025-11-11T15:32:19.403554" elapsed="6.257290">TimeoutError: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator('//h1') to be visible
+</status>
+</kw>
+<kw name="Click" owner="Browser">
+<arg>"Form Authentication"</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="NOT RUN" start="2025-11-11T15:32:25.662625" elapsed="0.002531"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<arg>h2</arg>
+<arg>==</arg>
+<arg>Login Page</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="NOT RUN" start="2025-11-11T15:32:25.666530" elapsed="0.008000"/>
+</kw>
+<kw name="Highlight Elements" owner="Browser">
+<arg>h2</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Adds a highlight to elements matched by the ``selector``. Provides a style adjustment.</doc>
+<status status="NOT RUN" start="2025-11-11T15:32:25.676308" elapsed="0.004992"/>
+</kw>
+<kw name="Take Screenshot" owner="Browser">
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="NOT RUN" start="2025-11-11T15:32:25.683189" elapsed="0.008605"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<arg>id=username</arg>
+<arg>tomsmith</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="NOT RUN" start="2025-11-11T15:32:25.693405" elapsed="0.004089"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<arg>imput [type="password"]</arg>
+<arg>SuperSecretPassword!</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="NOT RUN" start="2025-11-11T15:32:25.699228" elapsed="0.004027"/>
+</kw>
+<kw name="Click" owner="Browser">
+<arg>button</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="NOT RUN" start="2025-11-11T15:32:25.706510" elapsed="0.002553"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2025-11-11T15:32:25.712971" elapsed="0.003055"/>
+</kw>
+<kw name="Take Screenshot" owner="Browser">
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="NOT RUN" start="2025-11-11T15:32:25.717674" elapsed="0.006938"/>
+</kw>
+<kw name="Close Browser" owner="Browser">
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2025-11-11T15:32:25.726216" elapsed="0.002887"/>
+</kw>
+<msg time="2025-11-11T15:32:25.881706" level="INFO">Switching context to context=8c0e96f9-9629-42f3-b940-2c20b627663e in CURRENT</msg>
+<msg time="2025-11-11T15:32:25.937918" level="INFO">Successfully changed active context: context=8c0e96f9-9629-42f3-b940-2c20b627663e</msg>
+<msg time="2025-11-11T15:32:26.250730" level="INFO">Successfully closed Context</msg>
+<doc>Acessar página de login e inserir os dados corretos</doc>
+<status status="FAIL" start="2025-11-11T15:31:59.855262" elapsed="25.875559">TimeoutError: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator('//h1') to be visible
+</status>
+</test>
+<status status="FAIL" start="2025-11-11T15:31:57.920874" elapsed="28.337008"/>
+</suite>
+<status status="FAIL" start="2025-11-11T15:31:57.706942" elapsed="28.575460"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Treinamento Robot" id="s1" pass="0" fail="1" skip="0">Treinamento Robot</stat>
+<stat name="Testes Basicos" id="s1-s1" pass="0" fail="1" skip="0">Treinamento Robot.Testes Basicos</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

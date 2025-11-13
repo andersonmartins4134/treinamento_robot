@@ -1,0 +1,50 @@
+{"level":30,"time":"2025-11-11T17:13:30.671Z","pid":17700,"hostname":"21LAPBRM505JNXL","msg":"Listening on 127.0.0.1:52903"}
+{"level":30,"time":"2025-11-11T17:13:30.690Z","pid":17700,"hostname":"21LAPBRM505JNXL","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-11-11T17:13:32.117Z","pid":17700,"hostname":"21LAPBRM505JNXL","msg":"Adding browser to stack: chromium, version: 141.0.7390.37"}
+{"level":30,"time":"2025-11-11T17:13:32.117Z","pid":17700,"hostname":"21LAPBRM505JNXL","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-11-11T17:13:32.117Z","pid":17700,"hostname":"21LAPBRM505JNXL","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-11-11T17:13:32.136Z","pid":17700,"hostname":"21LAPBRM505JNXL","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-11-11T17:13:32.136Z","pid":17700,"hostname":"21LAPBRM505JNXL","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@01f73a02a2008eac8cd58df8fa5c6c12\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=e9f118f6-e188-4907-b7dd-f464a001bee8\"}"}
+{"level":30,"time":"2025-11-11T17:13:32.173Z","pid":17700,"hostname":"21LAPBRM505JNXL","msg":"Setting default timeout for context context=77a84d40-3268-4ed5-bd15-95f3c860fda2 to 10000"}
+{"level":30,"time":"2025-11-11T17:13:32.173Z","pid":17700,"hostname":"21LAPBRM505JNXL","msg":"Changed active context: context=77a84d40-3268-4ed5-bd15-95f3c860fda2"}
+{"level":30,"time":"2025-11-11T17:13:34.021Z","pid":17700,"hostname":"21LAPBRM505JNXL","msg":"Video path: undefined"}
+{"level":30,"time":"2025-11-11T17:13:34.021Z","pid":17700,"hostname":"21LAPBRM505JNXL","msg":"Changed active page"}
+{"level":30,"time":"2025-11-11T17:13:36.206Z","pid":17700,"hostname":"21LAPBRM505JNXL","msg":"End of node method newPage"}
+{"level":30,"time":"2025-11-11T17:13:46.215Z","pid":17700,"hostname":"21LAPBRM505JNXL","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-11-11T17:13:46.215Z","pid":17700,"hostname":"21LAPBRM505JNXL","Take screenshot with options: ":{"path":"C:\\Users\\abezerram\\Documents\\treinamento_robot\\logs\\browser\\screenshot\\robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-11-11T17:13:46.308Z","pid":17700,"hostname":"21LAPBRM505JNXL","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-11-11T17:13:46.315Z","pid":17700,"hostname":"21LAPBRM505JNXL","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-11-11T17:13:46.346Z","pid":17700,"hostname":"21LAPBRM505JNXL","msg":"Removed page=f5b10de9-a5d2-416a-af8d-c7e9e0e5509f from context=77a84d40-3268-4ed5-bd15-95f3c860fda2 page stack"}
+{"level":30,"time":"2025-11-11T17:13:49.453Z","pid":17700,"hostname":"21LAPBRM505JNXL","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\abezerram\AppData\Local\Programs\Python\Python314\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\abezerram\AppData\Local\Programs\Python\Python314\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\abezerram\AppData\Local\Programs\Python\Python314\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\abezerram\AppData\Local\Programs\Python\Python314\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\abezerram\AppData\Local\Programs\Python\Python314\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\abezerram\AppData\Local\Programs\Python\Python314\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\abezerram\AppData\Local\Programs\Python\Python314\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2025-11-11T17:13:49.468Z","pid":17700,"hostname":"21LAPBRM505JNXL","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-11T17:13:49.468Z","pid":17700,"hostname":"21LAPBRM505JNXL","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\abezerram\AppData\Local\Programs\Python\Python314\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\abezerram\AppData\Local\Programs\Python\Python314\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\abezerram\AppData\Local\Programs\Python\Python314\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\abezerram\AppData\Local\Programs\Python\Python314\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\abezerram\AppData\Local\Programs\Python\Python314\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\abezerram\AppData\Local\Programs\Python\Python314\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\abezerram\AppData\Local\Programs\Python\Python314\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2025-11-11T17:13:49.479Z","pid":17700,"hostname":"21LAPBRM505JNXL","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-11T17:13:49.479Z","pid":17700,"hostname":"21LAPBRM505JNXL","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-11T17:13:49.873Z","pid":17700,"hostname":"21LAPBRM505JNXL","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-11-11T17:13:49.873Z","pid":17700,"hostname":"21LAPBRM505JNXL","msg":"End of node method closeAllBrowsers"}
